@@ -455,7 +455,7 @@ T
 | Microsoft SQL                                   |                              |
 | Standalone FCI-AAG                              | 2 instances 1 instance       |
 | Oracle                                          |                              |
-| Standalone RAC                                  | 2 instances 1 instance       |
+| Standalone                                      | 2 instances 1 instance       |
 | Windows Server                                  | Upto 2 Servers               |
 | Linux Server                                    | Upto 2 Servers               |
 

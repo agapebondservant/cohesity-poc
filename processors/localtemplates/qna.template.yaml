@@ -1,13 +1,13 @@
 ---
 version: 3
-domain: {{domain}}
-created_by: {{user}}
+domain: {{ domain }}
+created_by: {{ user }}
 seed_examples:
   - context: |
-      {{context1}}
+      {{ context1 }}
     questions_and_answers:
       - question: |
-          {{question11}}
+          {{ question11 }}
         answer: |
           {{answer11}}
       - question: |

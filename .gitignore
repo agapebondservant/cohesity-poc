@@ -1,3 +1,16 @@
 .DS_Store
 utils/tables
 tables/
+.ipynb_checkpoints/requirements-checkpoint.txt
+processors/__pycache__/docling_processor.cpython-311.pyc
+processors/__pycache__/ocr_processor.cpython-311.pyc
+processors/__pycache__/splitter_processor.cpython-311.pyc
+processors/.ipynb_checkpoints/ocr_processor-checkpoint.py
+processors/.ipynb_checkpoints/qna_generator_processor-checkpoint.py
+processors/.ipynb_checkpoints/splitter_processor-checkpoint.py
+processors/localtemplates/__pycache__/__init__.cpython-311.pyc
+processors/localtemplates/__pycache__/__init__.cpython-312.pyc
+processors/localtemplates/__pycache__/prompts.cpython-311.pyc
+processors/localtemplates/__pycache__/prompts.cpython-312.pyc
+processors/localtemplates/.ipynb_checkpoints/prompts-checkpoint.py
+processors/localtemplates/.ipynb_checkpoints/qna.template-checkpoint.yaml

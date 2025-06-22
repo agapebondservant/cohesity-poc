@@ -7,8 +7,10 @@ from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.models.ocr_mac_model import OcrMacOptions
 import os
 import shutil
+import pandas
+import importlib
 
-class DoclingProcessor:
+class OcrProcessor:
     def __init__(self, **kwargs):
         """
         Initialize the DocumentConverter.
@@ -19,7 +21,11 @@ class DoclingProcessor:
         """Set up the appropriate DocumentConverter based on the mode."""
         return DocumentConverter()
 
-    def process(self, input_dir: str, output_dir: str, review_dirs: list) -> None:
+    def extract_tables(self, input_file: str) -> str:
+         conv_result = self.doc_converter.convert(input_file)
+         return [table.export_to_dataframe().to_markdown() for table in conv_result.document.tables]
+
+    def process(self, input_dir: str, output_dir: str, review_dir: str) -> None:
         """
         Convert all PDFs in the input directory to Markdown and save them to the output directory.
 
@@ -38,19 +44,20 @@ class DoclingProcessor:
 
         for i in input_pdfs:
             conv_result = self.doc_converter.convert(i)
-            path = f"{output_dir}/{conv_result.input.file.stem}.md"
+            filepath = f"{output_dir}/{conv_result.input.file.stem}.md"
             
-            with open(path, "w") as f:
+            with open(filepath, "w") as f:
                 print(f"Writing file: {f.name}...")
                 f.write(conv_result.document.export_to_markdown())
                 
-                review_tables_dir = [dir for dir in review_dirs if dir.endswith("tables")]
-                if len(review_tables_dir) and len(conv_result.document.tables):
-                    print(f"Copying file to tables directory: {os.path.basename(path)}...")
-                    shutil.copy(f.name, dir)
+                if len(review_dir) and len(conv_result.document.tables):
+                    os.makedirs(review_dir, exist_ok=True)
+                    print(f"Copying file to tables directory: {os.path.basename(filepath)}...")
+                    shutil.copy(f.name, review_dir)
+        print("Conversion to markdown completed.")
                             
 if __name__ == "__main__":              
-    processor = DoclingProcessor({})
-    input_dirs, output_dirs, review_dirs = ["docs"], ["markdown"], ["tables"]
+    processor = OcrProcessor()
+    input_dirs, output_dirs, review_dirs = [f"{os.path.expanduser('~')}/cohesity-poc/docs"], [f"{os.path.expanduser('~')}/cohesity-poc/markdown"], [f"{os.path.expanduser('~')}/cohesity-poc/tables"]
     for input_dir, output_dir, review_dir in zip(input_dirs, output_dirs, review_dirs):
         processor.process(input_dir, output_dir, review_dir)
