@@ -1,0 +1,196 @@
+---
+version: 3
+domain: {{domain}}
+created_by: {{user}}
+seed_examples:
+  - context: |
+      {{context1}}
+    questions_and_answers:
+      - question: |
+          {{question11}}
+        answer: |
+          {{answer11}}
+      - question: |
+          {{question12}}
+        answer: |
+          {{answer12}}
+      - question: |
+          {{question13}}
+        answer: |
+          {{answer13}}
+  - context: |
+      {{context2}}
+    questions_and_answers:
+      - question: |
+          {{question21}}
+        answer: |
+          {{answer21}}
+      - question: |
+          {{question22}}
+        answer: |
+          {{answer22}}
+      - question: |
+          {{question23}}
+        answer: |
+          {{answer23}}
+  - context: |
+      {{context3}}
+    questions_and_answers:
+      - question: |
+          {{question31}}
+        answer: |
+          {{answer31}}
+      - question: |
+          {{question32}}
+        answer: |
+          {{answer32}}
+      - question: |
+          {{question33}}
+        answer: |
+          {{answer33}}
+  - context: |
+      {{context4}}
+    questions_and_answers:
+      - question: |
+          {{question41}}
+        answer: |
+          {{answer41}}
+      - question: |
+          {{question42}}
+        answer: |
+          {{answer42}}
+      - question: |
+          {{question43}}
+        answer: |
+          {{answer43}}
+  - context: |
+      {{context5}}
+    questions_and_answers:
+      - question: |
+          {{question51}}
+        answer: |
+          {{answer51}}
+      - question: |
+          {{question52}}
+        answer: |
+          {{answer52}}
+      - question: |
+          {{question53}}
+        answer: |
+          {{answer53}}
+  - context: |
+      {{context6}}
+    questions_and_answers:
+      - question: |
+          {{question61}}
+        answer: |
+          {{answer61}}
+      - question: |
+          {{question62}}
+        answer: |
+          {{answer62}}
+      - question: |
+          {{question63}}
+        answer: |
+          {{answer63}}
+  - context: |
+      {{context7}}
+    questions_and_answers:
+      - question: |
+          {{question71}}
+        answer: |
+          {{answer71}}
+      - question: |
+          {{question72}}
+        answer: |
+          {{answer72}}
+      - question: |
+          {{question73}}
+        answer: |
+          {{answer73}}
+
+  - context: |
+      {{context8}}
+    questions_and_answers:
+      - question: |
+          {{question81}}
+        answer: |
+          {{answer81}}
+      - question: |
+          {{question82}}
+        answer: |
+          {{answer82}}
+      - question: |
+          {{question83}}
+        answer: |
+          {{answer83}}
+
+  - context: |
+      {{context9}}
+    questions_and_answers:
+      - question: |
+          {{question91}}
+        answer: |
+          {{answer91}}
+      - question: |
+          {{question92}}
+        answer: |
+          {{answer92}}
+      - question: |
+          {{question93}}
+        answer: |
+          {{answer93}}
+  - context: |
+      {{context10}}
+    questions_and_answers:
+      - question: |
+          {{question101}}
+        answer: |
+          {{answer101}}
+      - question: |
+          {{question102}}
+        answer: |
+          {{answer102}}
+      - question: |
+          {{question103}}
+        answer: |
+          {{answer103}}
+  - context: |
+      {{context11}}
+    questions_and_answers:
+      - question: |
+          {{question111}}
+        answer: |
+          {{answer111}}
+      - question: |
+          {{question112}}
+        answer: |
+          {{answer112}}
+      - question: |
+          {{question113}}
+        answer: |
+          {{answer113}}
+  - context: |
+      {{context12}}
+    questions_and_answers:
+      - question: |
+          {{question121}}
+        answer: |
+          {{answer121}}
+      - question: |
+          {{question122}}
+        answer: |
+          {{answer122}}
+      - question: |
+          {{question123}}
+        answer: |
+          {{answer123}}
+
+document_outline: |
+  {{document_outline}}
+
+document:
+  repo: {{git_repo}}
+  commit: {{git_commit}}
+  patterns:
+    - {{data_dir}}
