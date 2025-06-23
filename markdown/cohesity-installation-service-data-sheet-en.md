@@ -48,32 +48,6 @@ Note: Cohesity Professional Services DO NOT rack, stack, cable or configure out-
 
 To learn more about Cohesity Installation Services, contact your Cohesity Sales Representative or visit Cohesity.com/support.
 
-<!-- image -->
-
-© 203 Cohesity, Inc. All rights reserved.
-
-Cohesity, the Cohesity logo, SnapTree, SpanFS, DataPlatform, DataProtect, Helios, the Helios logo, DataGovern, SiteContinuity, and other Cohesity marks are trademarks or registered trademarks of Cohesity, Inc. in the US and/or internationally. Other company and product names may be trademarks of the respective companies with which they are associated. This material (a) is intended to provide you information about Cohesity and our business and products; (b) was believed to be true and accurate at the time it was written, but is subject to change without notice; and (c) is provided on an 'AS IS' basis. Cohesity disclaims all express or implied conditions, representations, warranties of any kind.
-
-7
-
-0
-
--
-
-8
-
-0
-
-1
-
-A
-
-D
-
-A
-
-T
-
 ## Validation
 
 - · Verification of node network failover and hardware health

@@ -1,5 +1,3 @@
-<!-- image -->
-
 ## Cohesity Hardware Refresh Service
 
 ## End-of-Life Cluster Hardware Refresh

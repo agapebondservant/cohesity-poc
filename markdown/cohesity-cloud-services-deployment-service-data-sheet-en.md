@@ -10,8 +10,6 @@ The scope of the Cohesity Cloud Services Deployment Service is to deploy and con
 
 Cohesity Advanced Services will deploy up to 3 Cohesity Cloud Services supported workloads as part of this service. Additional workloads require the purchase of additional services.
 
-<!-- image -->
-
 ## This service includes:
 
 - · A guided tour of the Cohesity Data Cloud
@@ -64,16 +62,6 @@ Cohesity will meet with you to discuss:
 - · Total object count
 - · Required # of App IDs (for M365)
 - • Installation of up-to (4) SaaS Connectors is included with this service. Cohesity will register up-to-2 Virtual Sources for VMware, Hyper-V or AWS
-
-Learn more at Cohesity.com/support .
-
-<!-- image -->
-
-<!-- image -->
-
-© 2022 Cohesity, Inc. All rights reserved.
-
-Cohesity, the Cohesity logo, SnapTree, SpanFS, DataPlatform, DataProtect, Helios, the Helios logo, DataGovern, SiteContinuity, and other Cohesity marks are trademarks or registered trademarks of Cohesity, Inc. in the US and/or internationally. Other company and product names may be trademarks of the respective companies with which they are associated. This material (a) is intended to provide you information about Cohesity and our business and products; (b) was believed to be true and accurate at the time it was written, but is subject to change without notice; and (c) is provided on an 'AS IS' basis. Cohesity disclaims all express or implied conditions, representations, warranties of any kind.
 
 ## DATASHEET  |  Cohesity Cloud Services Deployment Service
 

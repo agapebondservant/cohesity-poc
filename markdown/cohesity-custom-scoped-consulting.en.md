@@ -1,5 +1,3 @@
-<!-- image -->
-
 ## Cohesity Custom-Scoped Consulting Services
 
 ## Service Overview
@@ -32,8 +30,6 @@ Cohesity Advanced Services provides Custom-Scoped Consulting Services to help yo
 - ·  Optimized configuration according to recommended Cohesity standards and best practices
 - •  Integration with chosen technologies
 
-D
-
 ## About Cohesity Advanced Services
 
 Our goal is to increase adoption of Cohesity products and solutions industry-wide by offering customers in-demand services. With service offerings available across the globe, our portfolio provides our customers with value and the level of service they need when they need it.
@@ -41,9 +37,3 @@ Our goal is to increase adoption of Cohesity products and solutions industry-wid
 For more information, contact your Cohesity Sales Representative or email contact@cohesity.com .
 
 For more information, contact your Cohesity Sales Representative or email contact@cohesity.com .
-
-<!-- image -->
-
-© 2021 Cohesity, Inc. All rights reserved.
-
-Cohesity, the Cohesity logo, SnapTree, SpanFS, DataPlatform, DataProtect, Helios, and other Cohesity marks are trademarks or registered trademarks of Cohesity, Inc. in the US and/or internationally. Other company and product names may be trademarks of the respective companies with which they are associated. This material (a) is intended to provide you information about Cohesity and our business and products; (b) was believed to be true and accurate at the time it was written, but is subject to change without notice; and (c) is provided on an 'AS IS' basis. Cohesity disclaims all express or implied conditions, representations, warranties of any kind.

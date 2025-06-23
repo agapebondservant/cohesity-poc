@@ -43,10 +43,4 @@ Our residents are aligned with Cohesity's 7x24 Escalation Management and Support
 
 ## Learn more about the Cohesity Resident Engineer Service at Cohesity.com/support.
 
-© 2024 Cohesity, Inc. All rights reserved.
-
-Cohesity, the Cohesity logo, SnapTree, SpanFS, DataPlatform, DataProtect, Helios, and other Cohesity marks are trademarks or registered trademarks of Cohesity, Inc. in the US and/or internationally. Other company and product names may be trademarks of the respective companies with which they are associated. This material (a) is intended to provide you information about Cohesity and our business and products; (b) was believed to be true and accurate at the time it was written, but is subject to change without notice; and (c) is provided on an 'AS IS' basis. Cohesity disclaims all express or implied conditions, representations, warranties of any kind.
-
 COHESITY.com |  1-855-926-4374  |  300 Park Ave., Suite 1700, San Jose, CA 95110
-
-1000019-004-EN  12-2024

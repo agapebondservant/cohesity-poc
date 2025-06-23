@@ -75,7 +75,3 @@ To learn more about Cohesity Support and Enhanced Services Cohesity.com/support.
 <!-- image -->
 
 <!-- image -->
-
-© 2024 Cohesity, Inc. All rights reserved.
-
-Cohesity, the Cohesity logo, SnapTree, SpanFS, DataPlatform, DataProtect, Helios, and other Cohesity marks are trademarks or registered trademarks of Cohesity, Inc. in the US and/or internationally. Other company and product names may be trademarks of the respective companies with which they are associated. This material (a) is intended to provide you information about Cohesity and our business and products; (b) was believed to be true and accurate at the time it was written, but is subject to change without notice; and (c) is provided on an 'AS IS' basis. Cohesity disclaims all express or implied conditions, representations, warranties of any kind.

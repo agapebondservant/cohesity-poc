@@ -28,8 +28,6 @@ PS-DataHawk Deploy Service includes:
 - · Validate a successful vault and recovery
 - · Provide a guided tour of Security Center GUI and review DataHawk Best Practices
 
-<!-- image -->
-
 ## Key Benefits
 
 - ·  Efficient and seamless integration by Cohesity Advanced Services Consultants
@@ -55,32 +53,6 @@ To learn more, please contact your Cohesity sales representative.
 - · Environment sizing validation completed
 - · Solution meets Cohesity hardware compatibility requirements
 - · App Nodes must be reachable via SSH before commencement of implementation
-
-Learn more about Cohesity Installation at Cohesity.com/support .
-
-<!-- image -->
-
-<!-- image -->
-
-© 203 Cohesity, Inc. All rights reserved.
-
-Cohesity, the Cohesity logo, SnapTree, SpanFS, DataPlatform, DataProtect, Helios, the Helios logo, DataGovern, SiteContinuity, and other Cohesity marks are trademarks or registered trademarks of Cohesity, Inc. in the US and/or internationally. Other company and product names may be trademarks of the respective companies with which they are associated. This material (a) is intended to provide you information about Cohesity and our business and products; (b) was believed to be true and accurate at the time it was written, but is subject to change without notice; and (c) is provided on an 'AS IS' basis. Cohesity disclaims all express or implied conditions, representations, warranties of any kind.
-
-N
-
-E
-
-1
-
-0
-
--
-
-6
-
-0
-
-1
 
 ## Limitations
 

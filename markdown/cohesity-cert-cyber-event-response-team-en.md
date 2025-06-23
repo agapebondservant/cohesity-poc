@@ -22,10 +22,6 @@ Many organizations lack the expertise or resources to respond effectively to att
 
 We believe it's not just about preventing incidents; it's about minimizing the impact if breached, including removing the threat and regaining control and access to your data. Cohesity CERT is with you in good times and bad to make sure your business is prepared to recover quickly and securely from cyberattacks.
 
-<!-- image -->
-
-<!-- image -->
-
 ## Immediate response to cyber threats
 
 Cohesity CERT is available 24/7 to assist in the event of a cyberattack. Because time is so critical when facing a breach, our team acts swiftly to:
@@ -52,5 +48,3 @@ Cohesity CERT strengthens your cybersecurity posture so you can respond and reco
 Cohesity, the Cohesity logo, SnapTree, SpanFS, DataPlatform, DataProtect, Helios, and other Cohesity marks are trademarks or registered trademarks of Cohesity, Inc. in the US and/or internationally. Other company and product names may be trademarks of the respective companies with which they are associated. This material (a) is intended to provide Ņoī inÜormation a¿oīt CoâeğitŅ and oīr ¿īğineğğ and ĘrodīctğɌ ɜ¿ɝ wağ ¿eõieľed to ¿e trīe and accīrate at tâe time it wağ wriŕenɊ ¿īt iğ ğī¿ñect to câanÝe provided on an 'AS IS' basis. Cohesity disclaims all express or implied conditions, representations, warranties of any kind.
 
 COHESITY.com  |  1-855-926-4374  |  300 Park Ave., Suite 1700, San Jose, CA 95110
-
-ȠȝȝȝȞȣȟɮȝȝȞɨER  Ȟȝɮȟȝȟ
