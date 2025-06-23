@@ -12,10 +12,9 @@ import traceback
 import splitter_processor
 import ocr_processor
 import json
-import yaml
-import jinja2
-from jinja2 import Template
-import codecs
+from ruamel.yaml import YAML
+from ruamel.yaml.scalarstring import LiteralScalarString
+from io import StringIO
 import importlib
 importlib.reload(splitter_processor)
 importlib.reload(ocr_processor)
@@ -91,18 +90,17 @@ class QnaGeneratorProcessor:
 
     def generate_yaml_payload(self, chunks) -> dict:
         print("\n\nGenerating yaml content...")
-        payload = {}
-
-        for i, chunk in enumerate(chunks):
-            payload[f"context{i+1}"] = chunk
-            payload[f"domain"] = "Services and Support"
-            payload[f"user"] = "oawofolu"
-            payload[f"document_outline"] = "Overview of Global Support and Services provided by the Cohesity technical team"
+        payload = {"domain" : "Services and Support",
+                  "user": "oawofolu",
+                  "document_outline": "Overview of Global Support and Services provided by the Cohesity technical team",
+                  "seed_data": []}
+        
+        for chunk in chunks:
+            # literal_chunk = LiteralScalarString(f"""{chunk}""")
+            section = {"context": chunk,
+                       "questions_and_answers": json.loads(self.generate_question_answer_pairs(chunk))}
             
-            section = json.loads(self.generate_question_answer_pairs(chunk))
-            for j, qna in enumerate(section):
-                payload[f"question{i+1}{j+1}"] = qna["question"]
-                payload[f"answer{i+1}{j+1}"] = qna["answer"]
+            payload["seed_data"].append(section)
 
         print(f"Generated YAML payload from template.")
         
@@ -110,18 +108,18 @@ class QnaGeneratorProcessor:
     
     def generate_yaml_file(self, payload: dict, output_dir: str) -> None:
         print("\n\nGenerating yaml file...")
-        with open(f"{os.path.expanduser('~')}/cohesity-poc/processors/localtemplates/qna.template.yaml", "r") as template_file:
-            template = Template(template_file.read())
-        
-            # Render the template
-            rendered_template = codecs.decode(template.render(payload),"unicode_escape")
-
-            # rendered_template_yaml = yaml.safe_dump(rendered_template, default_flow_style=False)
+        with open(f"{output_dir}/qna.yaml", "w") as f:
+            yaml = YAML()
+            yaml.indent(mapping=2, sequence=4, offset=2)
+            yaml.default_flow_style = False
+            yaml.default_style=None
+            yaml.preserve_quotes=False
+            yaml.allow_unicode = True
+            yaml.encoding = 'utf-8'
             
-            # Save the rendered template to a file
-            with open(f"{output_dir}/qna.yaml", "w") as f:
-                f.write(rendered_template)
-        print(f"Qna.yaml file generated at {output_dir}/qna.yaml.")
+            yaml.dump(payload, f)
+            
+            print(f"qna.yaml file generated at {output_dir}/qna.yaml.")
 
     def process(self, input_dir: str, output_dir: str, table_dir=None) -> None:
         """

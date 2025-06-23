@@ -1,0 +1,390 @@
+domain: Services and Support
+user: oawofolu
+document_outline: Overview of Global Support and Services provided by the Cohesity
+  technical team
+seed_data:
+  - context: "Key Benefits\n·  Efficient, seamless software installation and File
+      &amp; Object Cluster implementation\n·  Optimized configuration according to
+      Cohesity Standards and Best Practices\nThe PS Smart Start Service is a bundled
+      offering that includes Professional Services Installation and File &amp; Object
+      Data Management Cluster configuration. The Cohesity Smart Start Service provides
+      rapid software installation and file management cluster configuration to accelerate
+      your organization's NAS tiering integration and protection strategies.\n·  Integration
+      with chosen technologies\n·  Experienced technical professionals to help you
+      get a holistic view of the deployment, issues, and needs of your project\nOur
+      professional team of Advanced Services Consultants will install and configure
+      Cohesity software onto the certified hardware platforms of your choice-AND THEN
+      perform a SmartFiles Cluster Implementation to prepare your Cohesity Cluster
+      for a file management use case."
+    questions_and_answers:
+      - question: What does the PS Smart Start Service include?
+        answer: The PS Smart Start Service includes Professional Services Installation
+          and File & Object Data Management Cluster configuration.
+      - question: What are the key benefits of the Cohesity Smart Start Service?
+        answer: The key benefits are efficient, seamless software installation and
+          File & Object Cluster implementation, optimized configuration according
+          to Cohesity Standards and Best Practices, integration with chosen technologies,
+          and expert assistance from experienced technical professionals.
+      - question: What does the Cohesity team do during the SmartFiles Cluster Implementation?
+        answer: During the SmartFiles Cluster Implementation, the Cohesity team installs
+          and configures Cohesity software onto certified hardware platforms, and
+          prepares the Cohesity Cluster for a file management use case.
+  - context: |-
+      ## Project Close and Transfer of Information
+
+      - ·  Coordination by the installation engineer of a transfer of information with your team
+      - •  Assistance with password changes and review of Security
+      - •  Best Practices
+      - •  Review of Cohesity administrative workflows and Cohesity GUI
+      - •  Overview of Cohesity support and support website
+      - * SKU sizes are PER CLUSTER
+      - ** Cloud Edition supported platforms: AWS, Azure and GCP
+
+      | Installation Sizing   | Certified Hardware   | Cloud Edition (SM, MD, LGnodes)   | Cloud Edition (XLnodes)   | Virtual Edition   |
+      |-----------------------|----------------------|-----------------------------------|---------------------------|-------------------|
+      | PS-SMART-START-SM     | (3 - 8 nodes)        | (3 - 8 nodes)                     | -                         | (3 - 8 nodes)     |
+      | PS- SMART-START-MD    | (9 - 24 nodes)       | (9 - 24 nodes)                    | (3 - 8 nodes)             | (9 - 24 nodes)    |
+      | PS- SMART-START-LG    | (25 - 48 nodes)      | (25 - 48 nodes)                   | (9 - 24 nodes)            | (25 - 48 nodes)   |
+      | PS- SMART-START -XL   | (49 - 72 nodes)      | (49 - 72 nodes)                   | (25 - 48 nodes)           | (49 - 72 nodes)   |
+    questions_and_answers:
+      - question: What is the node range for PS-SMART-START-SM using Certified Hardware?
+        answer: The node range for PS-SMART-START-SM using Certified Hardware is 3 to
+          8 nodes.
+      - question: What is the node range for PS-SMART-START-MD using Cloud Edition with
+          XLnodes?
+        answer: The node range for PS-SMART-START-MD using Cloud Edition with XLnodes
+          is 3 to 8 nodes.
+      - question: What is the node range for PS-SMART-START-LG using Virtual Edition?
+        answer: The node range for PS-SMART-START-LG using Virtual Edition is 25 to 48
+          nodes.
+  - context: "Key Benefits\n· Efficient, seamless software installation and DataProtect
+      implementation\n· Swift transition of workloads onto Cohesity for accelerated
+      overall time-to-value\nThe PS JumpStart Service is a bundled offering that includes
+      Professional Services Installation and Data Protection Implementation of up-to-3
+      workloads. The Cohesity JumpStart Service provides rapid installation and data
+      protection configuration to accelerate your organization's data integration
+      and protection strategies.\n· Optimized configuration according to Cohesity
+      Standards and Best Practices\n· Integration with chosen technologies\n· Experienced
+      technical professionals to help you get a holistic view of the deployment, issues,
+      and needs of your project\nOur professional team of Advanced Services Consultants
+      will install and configure Cohesity software onto the certified hardware platforms
+      of your choice-AND THEN create backup jobs to protect up-to-3 workloads of your
+      choice (from the table below), a subset of your VMware, SQL and Oracle workloads,
+      while teaching your staff how to protect the rest. Our service also includes
+      setup and scheduling of replication* to another physical, virtual or cloud cluster."
+    questions_and_answers:
+      - question: What does the PS JumpStart Service offer in terms of software installation
+          and data protection implementation?
+        answer: The PS JumpStart Service offers efficient, seamless software installation
+          and DataProtect implementation, including optimized configuration according
+          to Cohesity Standards and Best Practices, integration with chosen technologies,
+          and assistance from experienced technical professionals.
+      - question: How many workloads can be transitioned onto Cohesity with the Cohesity
+          JumpStart Service?
+        answer: The Cohesity JumpStart Service allows for the swift transition of
+          up to 3 workloads onto Cohesity, accelerating the overall time-to-value
+          for data integration and protection strategies.
+      - question: What additional services are included in the PS JumpStart Service
+          besides installation and configuration?
+        answer: The PS JumpStart Service includes setup and scheduling of replication
+          to another physical, virtual, or cloud cluster, as well as training for
+          staff to protect the remaining workloads not included in the initial 3.
+  - context: "Implementation\n· Configuration of Cohesity software according to best
+      practices\n· Addition of cluster(s) to specified data and management networks
+      (including VIPS)\n· Enablement of Cluster Core Management Services, including
+      SMTP, SNMP for monitoring and alerts\n· Joining of the cluster(s) to Active
+      Directory, configuration of proxy server and global whitelisting (if applicable)\n
+      · Configuration of Storage Domains and Views, including storage encryption,
+      redundancy levels and space-saving features such as deduplication and compression\n
+      · Register sources and create protection jobs\n· Assign policies to protection
+      jobs to automate operations and meet your business service-level agreement (SLA)
+      requirements"
+    questions_and_answers:
+      - question: What are the initial steps for configuring Cohesity software?
+        answer: The initial steps for configuring Cohesity software include configuring
+          it according to best practices and adding cluster(s) to specified data and
+          management networks, including Virtual IPs (VIPs).
+      - question: How are monitoring and alerting services enabled in Cohesity clusters?
+        answer: Monitoring and alerting services in Cohesity clusters are enabled
+          by activating Cluster Core Management Services, which includes setting up
+          SMTP for email alerts and SNMP for network monitoring.
+      - question: What are some storage configuration options in Cohesity clusters?
+        answer: In Cohesity clusters, storage configuration options include setting
+          up Storage Domains and Views, enabling storage encryption, configuring redundancy
+          levels, and utilizing space-saving features like deduplication and compression.
+  - context: |-
+      | Installation                                                         | Small Tier                                                | Medium Tier                                               | Large Tier                                                |
+      |----------------------------------------------------------------------|-----------------------------------------------------------|------------------       -----------------------------------------|-----------------------------------------------------------|
+      | Data TB                                                              | Up to 50TB                                                | Up to 200TB                                               | Up to 400TB                                               |
+      | Number of File Servers                                               | Up to 2                                                   | Up to 5                                                   | Up to 10                                                  |
+      | Authentication Providers                                             | Up to 2                                                   | Up to 4                                                   | Up to 8                                                   |
+      | Protocol                                                             | SMB V2/V3 , NFS V3                                        | SMB V2/V3 , NFS         V3                                        | SMB V2/V3 , NFS V3                                        |
+      | Supported NAS Vendor                                                 | ISILON, NetApp, Generic NAS Storage, Windows File Servers | ISILON, NetApp,         Generic NAS Storage, Windows File Servers | ISILON, NetApp, Generic NAS Storage, Windows File Servers |
+    questions_and_answers:
+      - question: What is the maximum data storage limit for the Small Tier service?
+        answer: The maximum data storage limit for the Small Tier service is up to
+          50TB.
+      - question: How many file servers are allowed in the Medium Tier service?
+        answer: The Medium Tier service allows up to 5 file servers.
+      - question: Which user mapping methodologies are supported in the Small Tier
+          service?
+        answer: The Small Tier service supports DFS, GPO, Logon Script, or AD Profile
+          Path as user mapping methodologies.
+  - context: "Implementation\n· Verify network configuration for optimized performance
+      and throughput\n· Create domains, and views\n· Assign policies and protection
+      groups to accommodate replication requirements.\nTo learn more about Cohesity
+      Installation Services, contact your Cohesity Sales Representative or visit Cohesity.com/support
+      .\n© 2022 Cohesity, Inc. All rights reserved.\nCohesity, the Cohesity logo,
+      SnapTree, SpanFS, DataPlatform, DataProtect, Helios, and other Cohesity marks
+      are trademarks or registered trademarks of Cohesity, Inc. in the US and/or internationally.
+      Other company and product names may be trademarks of the respective companies
+      with which they are associated. This material (a) is intended to provide you
+      information about Cohesity and our business and products; (b) was believed to
+      be true and accurate at the time it was written, but is subject to change without
+      notice; and (c) is provided on an 'AS IS' basis. Cohesity disclaims all express
+      or implied conditions, representations, warranties of any kind."
+    questions_and_answers:
+      - question: What steps are involved in the implementation process for Cohesity?
+        answer: The implementation process for Cohesity involves verifying network
+          configuration for optimized performance and throughput, creating domains
+          and views, and assigning policies and protection groups to accommodate replication
+          requirements.
+      - question: Where can one find more information about Cohesity Installation
+          Services?
+        answer: More information about Cohesity Installation Services can be obtained
+          by contacting a Cohesity Sales Representative or visiting Cohesity.com/support.
+      - question: What is the copyright status and disclaimer for the provided information?
+        answer: The provided information is copyrighted by Cohesity, Inc. for 2022
+          and is subject to change without notice. It is provided on an 'AS IS' basis,
+          with Cohesity disclaiming all express or implied conditions, representations,
+          warranties of any kind.
+  - context: "Accelerate resolution, proactively optimize operations, and get recommendations\n
+      Cohesity Platinum Service maximizes enterprise customers' value from the Cohesity
+      multicloud data management platform. It provides customers with priority handling
+      of support cases and account advocacy through direct access to assigned technical
+      experts. Platinum Service customers have the benefit of additional focused attention
+      and single pointof-contact issue resolution from both a Cohesity Designated
+      Support Engineer (DSE) and a Cohesity Technical Account Manager (TAM).\nNamed
+      individuals, your DSE works on your priority cases while your TAM continually
+      advocates for your needs, coordinates Cohesity resources for your strategic
+      planning benefit, and helps your organization quickly resolve issues.\nFigure
+      1: Cohesity Platinum Service accelerates issue resolution and ensures your enterprise
+      gets what it needs from Cohesity."
+    questions_and_answers:
+      - question: What does Cohesity Platinum Service offer to enterprise customers?
+        answer: Cohesity Platinum Service offers priority handling of support cases,
+          direct access to assigned technical experts, and additional focused attention
+          with single point-of-contact issue resolution from both a Cohesity Designated
+          Support Engineer (DSE) and a Cohesity Technical Account Manager (TAM).
+      - question: How does the Cohesity Platinum Service help in issue resolution?
+        answer: The Cohesity Platinum Service accelerates issue resolution by providing
+          named individuals with a dedicated DSE who works on priority cases and a
+          TAM who advocates for their needs, coordinates Cohesity resources, and helps
+          resolve issues quickly.
+      - question: What are the roles of a Cohesity Designated Support Engineer (DSE)
+          and a Cohesity Technical Account Manager (TAM) in the Platinum Service?
+        answer: In the Cohesity Platinum Service, a DSE works on priority support
+          cases for named individuals, while a TAM continually advocates for their
+          needs, coordinates Cohesity resources for strategic planning, and helps
+          resolve issues quickly.
+  - context: "Better Together\nPlatinum Service is a unique opportunity to leverage
+      two highly knowledgeable Cohesity technical experts, both a named DSE and TAM,
+      with in-depth knowledge of your environment for immediate assistance as well
+      as short- and long-term guidance and advocacy.\nThe Cohesity Platinum Service
+      offering provides assigned DSE and TAM resources contracted for a fixed-term,
+      typically yearly or\nmultiyear, engagement. DSE and TAM are shared resources
+      operating during regular business hours in accordance with customers' local
+      time zone. During non-business hours, customer activities will be managed directly
+      by the Cohesity high-priority support queue until the next business day.\nThe
+      Cohesity Platinum Service includes 1/5th of the designated TAM and DSE weekly
+      time. Additional Platinum SKU's can be purchased, up to 5 slices, for dedicated
+      TAM and DSE resources."
+    questions_and_answers:
+      - question: What does the Cohesity Platinum Service offer?
+        answer: The Cohesity Platinum Service offers immediate assistance and short-
+          and long-term guidance and advocacy from two highly knowledgeable Cohesity
+          technical experts, a Designated Support Engineer (DSE) and a Technical Account
+          Manager (TAM), who are contracted for a fixed-term, typically yearly or
+          multiyear.
+      - question: How are the DSE and TAM resources allocated in the Platinum Service?
+        answer: In the Platinum Service, the DSE and TAM resources are shared and
+          operate during regular business hours in accordance with the customer's
+          local time zone. For additional dedicated resources, up to 5 slices of Platinum
+          SKU's can be purchased.
+      - question: What happens to customer activities during non-business hours in
+          the Platinum Service?
+        answer: During non-business hours, customer activities in the Platinum Service
+          are managed directly by the Cohesity high-priority support queue until the
+          next business day.
+  - context: "Key Deliverables &amp; Service Activities\n- •  Direct responsibility
+      to handle and resolve critical support cases\nDesignated Case Management\nPreemptive
+      Care\nAccount Management\nProactive Information Sharing\n•  Weekly case reviews
+      with action items and next steps\n•  Root-cause analysis and failure analysis\n\
+      •  Internal coordination of resources required\n•  Case trend analysis with
+      recommendations/best practices\n•  Review and standardization of software releases\n\
+      •  Quarterly business reviews\n•  Planning and tracking of product/feature adoption\n\
+      •  Feature enhancement request tracking\n•  Proactive risk notification and
+      mitigation\n•  Roadmap discussion coordination\n•  Access to subject matter
+      experts (SMEs) for key discussions/planning\nLearn more about the Cohesity Platinum
+      Service at Cohesity.com/support.\n© 203 Cohesity, Inc. All rights reserved."
+    questions_and_answers:
+      - question: What are the key deliverables and service activities mentioned in
+          the paragraph?
+        answer: The key deliverables and service activities include handling and resolving
+          critical support cases, designated case management, preemptive care, account
+          management, proactive information sharing, weekly case reviews, root-cause
+          analysis, failure analysis, internal coordination of resources, case trend
+          analysis, review and standardization of software releases, quarterly business
+          reviews, planning and tracking of product/feature adoption, feature enhancement
+          request tracking, proactive risk notification and mitigation, roadmap discussion
+          coordination, and access to subject matter experts for key discussions/planning.
+      - question: What types of reviews are conducted on a regular basis according
+          to the paragraph?
+        answer: The paragraph mentions weekly case reviews and quarterly business
+          reviews as regular activities.
+      - question: What is the role of subject matter experts (SMEs) in the described
+          service?
+        answer: Subject matter experts (SMEs) are available for key discussions and
+          planning in the described service.
+  - context: "Set goals, continually improve operations, and resolve issues faster\n
+      The Cohesity Technical Account Manager (TAM) Service helps ensure enterprise
+      customers get the highest possible value from their Cohesity investment. Cohesity
+      TAMs combine deep industry and product knowledge with best-practice insights
+      from global deployments to ensure the immediate and long-term success of the
+      Cohesity multicloud data management platform in your environment.\nWhen you
+      become a TAM customer, you gain access to a named individual who advocates for
+      your needs, coordinates Cohesity resources for your benefit, and helps to quickly
+      resolve issues. TAMs work with you and your team to set goals, share feedback,
+      and drive action. They track  product enhancements and promote roadmap input
+      internally. The TAM service complements Cohesity's award-winning 24/7 support."
+    questions_and_answers:
+      - question: What does the Cohesity Technical Account Manager (TAM) Service offer
+          to enterprise customers?
+        answer: The Cohesity TAM Service ensures enterprise customers get the highest
+          possible value from their Cohesity investment by providing a named individual
+          who advocates for their needs, coordinates Cohesity resources, and helps
+          resolve issues quickly.
+      - question: How do Cohesity TAMs contribute to the success of the Cohesity platform
+          in a customer's environment?
+        answer: Cohesity TAMs contribute to the success of the Cohesity platform by
+          combining deep industry and product knowledge with best-practice insights
+          from global deployments, setting goals with the customer, sharing feedback,
+          and driving action.
+      - question: What additional benefits does the TAM service provide beyond Cohesity's
+          24/7 support?
+        answer: The TAM service complements Cohesity's 24/7 support by tracking product
+          enhancements, promoting roadmap input internally, and working closely with
+          customers to ensure immediate and long-term success of the Cohesity multicloud
+          data management platform.
+  - context: "Key TAM Deliverables &amp; Activities\nPreemptive Care, • Escalation
+      management of critical support cases • Frequent case reviews with action items
+      and next steps • Root-cause analysis and failure analysis • Internal coordination
+      of resources required = • Case trend analysis with recommendations/best practices
+      • Review and standardization of software releases. Account Management, • Escalation
+      management of critical support cases • Frequent case reviews with action items
+      and next steps • Root-cause analysis and failure analysis • Internal coordination
+      of resources required = • Quarterly business reviews • Planning and tracking
+      of product/feature adoption • Feature enhancement tracking. Proactive Information
+      Sharing, • Escalation management of critical support cases • Frequent case reviews
+      with action items and next steps • Root-cause analysis and failure analysis
+      • Internal coordination of resources required = • Proactive risk notification
+      and mitigation • Roadmap discussions • Access to subject matter experts (SMEs)
+      for key discussions/planning"
+    questions_and_answers:
+      - question: What are the key activities involved in Preemptive Care?
+        answer: The key activities in Preemptive Care include escalation management
+          of critical support cases, frequent case reviews with action items and next
+          steps, root-cause analysis and failure analysis, internal coordination of
+          resources required, case trend analysis with recommendations/best practices,
+          and review and standardization of software releases.
+      - question: What are the main responsibilities of Account Management?
+        answer: Account Management involves escalation management of critical support
+          cases, frequent case reviews with action items and next steps, root-cause
+          analysis and failure analysis, internal coordination of resources required,
+          quarterly business reviews, planning and tracking of product/feature adoption,
+          and feature enhancement tracking.
+      - question: What are the primary tasks in Proactive Information Sharing?
+        answer: Proactive Information Sharing encompasses escalation management of
+          critical support cases, frequent case reviews with action items and next
+          steps, root-cause analysis and failure analysis, internal coordination of
+          resources required, proactive risk notification and mitigation, roadmap
+          discussions, and access to subject matter experts (SMEs) for key discussions/planning.
+  - context: "Service Scope\nCohesity, the Cohesity logo, SnapTree, SpanFS, DataPlatform,
+      DataProtect, Helios, and other Cohesity marks are trademarks or registered trademarks
+      of Cohesity, Inc. in the US and/or internationally. Other company and product
+      names may be trademarks of the respective companies with which they are associated.
+      This material (a) is intended to provide you information about Cohesity and
+      our business and products; (b) was believed to be true and accurate at the time
+      it was written, but is subject to change without notice; and (c) is provided
+      on an 'AS IS' basis. Cohesity disclaims all express or implied conditions, representations,
+      warranties of any kind."
+    questions_and_answers:
+      - question: What are the trademarks mentioned in the paragraph?
+        answer: The trademarks mentioned in the paragraph are Cohesity, the Cohesity
+          logo, SnapTree, SpanFS, DataPlatform, DataProtect, and Helios.
+      - question: What is the intended purpose of the provided material?
+        answer: The intended purpose of the provided material is to inform about Cohesity,
+          its business, and products.
+      - question: What is the disclaimer regarding the information provided?
+        answer: The information provided is subject to change without notice and is
+          offered on an 'AS IS' basis, with Cohesity disclaiming all express or implied
+          conditions, representations, and warranties.
+  - context: "Key Benefits\n• Less downtime and data loss\n• Rapid incident response\n
+      • Efficient  data restoration\nCyberattacks are one of the biggest causes of
+      data loss and downtime. Cyberattacks are not a matter of if but when. Ransomware,
+      data breaches, and wiper attacks are on the rise, and businesses of all sizes
+      are vulnerable. When an attack occurs, the focus shifts from prevention to response
+      and recovery so the organization can continue operating.\n- • Expert guidance
+      in a crisis\nTo reduce the impact of a cyberattack, we've enhanced our world-class
+      data security solution with a dedicated Cyber Event Response Team (CERT) service.
+      Cohesity CERT is available to all customers as part of their Cohesity subscription.\n
+      By adding an experienced team to supplement the incident response investigation
+      in its earliest stages, Cohesity CERT helps bring order and clarity to a chaotic
+      and confusing time for your business. You'll gain added confidence that your
+      data is protected with its integrity preserved.\nMany organizations lack the
+      expertise or resources to respond effectively to attacks. Cohesity CERT provides
+      fast, expert assistance during incidents, ensuring minimal disruption and faster
+      recovery."
+    questions_and_answers:
+      - question: What are the key benefits of Cohesity's data security solution in
+          terms of cyberattack response?
+        answer: The key benefits include less downtime and data loss, rapid incident
+          response, and efficient data restoration.
+      - question: How does Cohesity's Cyber Event Response Team (CERT) service aid
+          in cyberattack response?
+        answer: Cohesity CERT provides expert guidance during incidents, ensuring
+          minimal disruption and faster recovery by supplementing the investigation
+          in its earliest stages.
+      - question: Why is Cohesity CERT crucial for organizations lacking expertise
+          or resources in cyberattack response?
+        answer: Cohesity CERT offers fast, expert assistance during incidents, which
+          many organizations lack, thereby ensuring data protection and integrity
+          preservation.
+  - context: "Cohesity Installation Service\nSpeed Time to Value While Protecting
+      Your Investment\nOur Cohesity Installation Service provides rapid installation
+      and configuration expertise for organizations adopting our Cohesity Helios ®
+      multicloud data platform, on premises or from the cloud.\nOur professional team
+      of Advanced Services Consultants installs and configures Cohesity software onto\
+      \  the certified platforms of your choice-hardware, virtual or cloud environments.
+      In cooperation with you, our Advanced Services team accelerates your time to
+      value and helps protect your investment by configuring your solution to be ready
+      to provide the comprehensive range of data management services your organization
+      is counting on and validating that all nodes are communicating across the cluster
+      and network.\nOur Cohesity Installation Service complements other foundational
+      Cohesity Advanced Services offerings such as our Quick Start Service for data
+      protection."
+    questions_and_answers:
+      - question: What does the Cohesity Installation Service offer?
+        answer: The Cohesity Installation Service offers rapid installation and configuration
+          expertise for organizations adopting the Cohesity Helios multicloud data
+          platform, on premises or from the cloud.
+      - question: Who configures the Cohesity software during the installation process?
+        answer: A professional team of Advanced Services Consultants installs and
+          configures Cohesity software onto the certified platforms of your choice,
+          which can be hardware, virtual, or cloud environments.
+      - question: How does the Cohesity Installation Service help protect an organization's
+          investment?
+        answer: The Cohesity Installation Service helps protect an organization's
+          investment by configuring the solution to be ready to provide comprehensive
+          data management services and validating that all nodes are communicating
+          across the cluster and network.
