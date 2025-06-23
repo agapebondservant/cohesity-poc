@@ -1,3 +1,5 @@
+---
+version: 3
 domain: Services and Support
 user: oawofolu
 document_outline: Overview of Global Support and Services provided by the Cohesity
@@ -388,3 +390,8 @@ seed_data:
           investment by configuring the solution to be ready to provide comprehensive
           data management services and validating that all nodes are communicating
           across the cluster and network.
+document:
+  repo: https://github.com/agapebondservant/cohesity-poc.git
+  commit: 4728beb4611e5aad8566f871cf6ccd17446c6b26
+  patterns:
+    - markdown/*.md
