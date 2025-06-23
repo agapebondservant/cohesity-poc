@@ -15,3 +15,4 @@ processors/localtemplates/__pycache__/prompts.cpython-312.pyc
 processors/localtemplates/.ipynb_checkpoints/prompts-checkpoint.py
 processors/localtemplates/.ipynb_checkpoints/qna.template-checkpoint.yaml
 taxonomy/knowledge/support/.ipynb_checkpoints/qna-checkpoint.yaml
+.env
