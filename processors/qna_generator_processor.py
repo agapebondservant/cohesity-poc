@@ -90,10 +90,17 @@ class QnaGeneratorProcessor:
 
     def generate_yaml_payload(self, chunks) -> dict:
         print("\n\nGenerating yaml content...")
-        payload = {"domain" : "Services and Support",
-                  "user": "oawofolu",
-                  "document_outline": "Overview of Global Support and Services provided by the Cohesity technical team",
-                  "seed_data": []}
+        payload = {"version": 3,
+                   "domain" : "",
+                   "created_by": "",
+                   "seed_examples": [],
+                   "document_outline": "",
+                   "document": {
+                       "repo": "",
+                       "commit": "",
+                       "patterns": [""],
+                   }
+                  }
         
         for chunk in chunks:
             # literal_chunk = LiteralScalarString(f"""{chunk}""")
