@@ -1,10 +1,8 @@
 ---
 version: 3
 domain: Services and Support
-user: oawofolu
-document_outline: Overview of Global Support and Services provided by the Cohesity
-  technical team
-seed_data:
+created_by: oawofolu
+seed_examples:
   - context: "Key Benefits\n·  Efficient, seamless software installation and File
       &amp; Object Cluster implementation\n·  Optimized configuration according to
       Cohesity Standards and Best Practices\nThe PS Smart Start Service is a bundled
@@ -390,6 +388,10 @@ seed_data:
           investment by configuring the solution to be ready to provide comprehensive
           data management services and validating that all nodes are communicating
           across the cluster and network.
+
+document_outline: |
+   Overview of Global Support and Services provided by the Cohesity
+   technical team
 document:
   repo: https://github.com/agapebondservant/cohesity-poc.git
   commit: 4728beb4611e5aad8566f871cf6ccd17446c6b26
