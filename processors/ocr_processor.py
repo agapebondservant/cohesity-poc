@@ -23,6 +23,7 @@ class OcrProcessor:
 
     def extract_tables(self, input_file: str) -> str:
          conv_result = self.doc_converter.convert(input_file)
+        
          return [table.export_to_dataframe().to_markdown() for table in conv_result.document.tables]
 
     def process(self, input_dir: str, output_dir: str, review_dir: str) -> None:
@@ -58,6 +59,8 @@ class OcrProcessor:
                             
 if __name__ == "__main__":              
     processor = OcrProcessor()
-    input_dirs, output_dirs, review_dirs = [f"{os.path.expanduser('~')}/cohesity-poc/docs"], [f"{os.path.expanduser('~')}/cohesity-poc/markdown"], [f"{os.path.expanduser('~')}/cohesity-poc/tables"]
+    input_dirs = processor.process(f"{Path(__file__).resolve().parents[1]}/docs", 
+                          f"{Path(__file__).resolve().parents[1]}/markdown", 
+                          table_dir=f"{Path(__file__).resolve().parents[1]}//tables")
     for input_dir, output_dir, review_dir in zip(input_dirs, output_dirs, review_dirs):
         processor.process(input_dir, output_dir, review_dir)
