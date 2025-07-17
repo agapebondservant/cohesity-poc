@@ -36,7 +36,7 @@ class QnaGeneratorProcessor:
         
         self.num_contexts = 12 # Currently supports 12 contexts per qna.yaml file
         
-        self.num_contexts_per_file = [12] # This will select up to 8 files (12 contexts total)
+        self.num_contexts_per_file = [2,2,1,1,2,2,1,1] # This will select up to 8 files (12 contexts total)
         
         self.splitter = splitter_processor.SplitterProcessor()
 
